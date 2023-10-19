@@ -1,10 +1,10 @@
 <?php
 
-namespace ctf0\Firebase;
+namespace vdbin\Firebase;
 
-use ctf0\Firebase\Broadcasters\FSDB;
-use ctf0\Firebase\Broadcasters\RTDB;
-use ctf0\Firebase\Broadcasters\FCM;
+use vdbin\Firebase\Broadcasters\FSDB;
+use vdbin\Firebase\Broadcasters\RTDB;
+use vdbin\Firebase\Broadcasters\FCM;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Broadcasting\BroadcastManager;
 

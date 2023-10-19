@@ -1,12 +1,14 @@
 <h1 align="center">
     FireBase Broadcast Driver
     <br>
-    <a href="https://packagist.org/packages/ctf0/firebase-broadcast-driver"><img src="https://img.shields.io/packagist/v/ctf0/firebase-broadcast-driver.svg" alt="Latest Stable Version" /></a> <a href="https://packagist.org/packages/ctf0/firebase-broadcast-driver"><img src="https://img.shields.io/packagist/dt/ctf0/firebase-broadcast-driver.svg" alt="Total Downloads" /></a>
+    <a href="https://packagist.org/packages/vdbin/firebase-broadcast-driver"><img src="https://img.shields.io/packagist/v/vdbin/firebase-broadcast-driver.svg" alt="Latest Stable Version" /></a> <a href="https://packagist.org/packages/vdbin/firebase-broadcast-driver"><img src="https://img.shields.io/packagist/dt/vdbin/firebase-broadcast-driver.svg" alt="Total Downloads" /></a>
 </h1>
 
 ## Installation
 
-- `composer require ctf0/firebase-broadcast-driver`
+- forked from [ctf0/laravel-firebase-broadcast-driver](https://github.com/ctf0/laravel-firebase-broadcast-driver)
+- forked from [zeknoss/firebase-broadcast-driver-with-fcm](https://github.com/zeknoss/firebase-broadcast-driver-with-fcm)
+- `composer require vdbin/firebase-broadcast-driver`
 
 - the package internally use [`kreait/firebase-php`](https://firebase-php.readthedocs.io/en/latest/) to send data to firebase.
 

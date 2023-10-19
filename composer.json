@@ -1,22 +1,21 @@
 {
-    "name": "ctf0/firebase-broadcast-driver",
-    "description": "a firebase broadcast driver for laravel",
-    "homepage": "https://github.com/ctf0/laravel-firebase-broadcast-driver",
+    "name": "vdbin/firebase-broadcast-driver",
+    "description": "A firebase broadcast driver for laravel",
+    "homepage": "https://github.com/vdbin/laravel-firebase-broadcast-driver",
     "license": "MIT",
     "keywords": [
-        "ctf0",
+        "vdbin",
         "laravel",
         "firebase",
         "broadcast"
     ],
     "authors": [
         {
-            "name": "Muah",
-            "email": "muah003@gmail.com"
+            "name": "vdbin",
+            "email": "shelf-jujube-0@icloud.com"
         }
     ],
     "require": {
-        "illuminate/support": ">=5.5 <10.0",
         "kreait/firebase-php": "*"
     },
     "suggest": {
@@ -24,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ctf0\\Firebase\\": "src"
+            "vdbin\\Firebase\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ctf0\\Firebase\\FireBaseBroadcastProvider"
+                "vdbin\\Firebase\\FireBaseBroadcastProvider"
             ]
         },
         "changeLog": "logs"
@@ -40,13 +39,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "@php artisan vendor:publish --provider = \"ctf0\\Firebase\\FireBaseBroadcastProvider\""
+            "@php artisan vendor:publish --provider = \"vdbin\\Firebase\\FireBaseBroadcastProvider\""
         ]
-    },
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/ctf0"
-        }
-    ]
+    }
 }
