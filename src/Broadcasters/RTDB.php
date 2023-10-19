@@ -46,7 +46,7 @@ class RTDB extends Broadcaster
                     'event'     => $event,
                     'socket'    => $socket,
                     'timestamp' => round(now()->valueOf()), // return date == to js Date.now()
-                ]);
+                ])->remove();
             } catch (ApiException $e) {
                 throw new BroadcastException($e);
             }
